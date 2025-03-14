@@ -87,8 +87,11 @@ const Navbar = () => {
         <div className="">
           <a href="#" onClick={() => navigate("/")} className="text-xl font-medium">
             <div className="flex gap-2 items-center">
+              <div>
+
               <img src="/assets/logo.png" height={100} width={100} alt="Logo" />
-              <span className="text-sm lg:text-lg leading-tight text-white font-bold">
+              </div>
+              <span className="text-2xl lg:text-lg leading-tight text-white font-bold">
                 Collab
               </span>
             </div>
@@ -206,51 +209,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-// import React from 'react'
-// import { menuItems } from '../data/menu'
-
-// const Navbar = () => {
-//   return (
-//     <div className='relative p-6 border-b'>
-//       <div className='flex justify-between text-white leading-tight '>
-//         {/* LEFT */}
-//         <div>
-//           <div className='flex gap-x-2 items-center'>
-//             <div className='flex'>
-
-//             <span><img src="/assets/logo.png" className='flex w-16 h-16' alt="" /></span>
-//             </div>
-//             <span>2</span>
-//           </div>
-//         </div>
-//         {/* MIDDLE */}
-//         <div >
-//           <div className='flex gap-x-4'>
-//           {menuItems.map((menu)=>(
-//               <div className='flex items-center gap-x-2 cursor-pointer  '>{menu.name} <span><img src="/assets/chevrondown.png" height={12} width={12} alt=""  /></span> </div>
-//           ))}
-// {/* 
-//           <div className='flex items-center gap-x-2 cursor-pointer  '>Product <span><img src="/assets/chevrondown.png" height={12} width={12} alt=""  /></span> </div>
-//           <div className='flex items-center gap-x-2 cursor-pointer '> Resources <span><img src="/assets/chevrondown.png" height={12} width={12} alt=""  /></span> </div>
-//           <div className='flex items-center gap-x-2 cursor-pointer  '>Pricing <span><img src="/assets/chevrondown.png" height={12} width={12} alt=""  /></span> </div>
-//           <div className='flex items-center gap-x-2 cursor-pointer ' >Security <span><img src="/assets/chevrondown.png" height={12} width={12} alt=""  /></span> </div>
-//           <div className='flex items-center gap-x-2 cursor-pointer  '>Contact <span><img src="/assets/chevrondown.png" height={12} width={12} alt=""  /></span> </div> */}
-//           </div>
-//         </div>
-
-//         {/* RIGHT */}
-//         <div >
-//           <div className='flex gap-x-2'>
-
-//           <div className='border px-2 rounded-full py-1 font-medium text-sm'>Login</div>
-//           <div className='border px-2 rounded-full py-1 bg-white text-black font-medium text-sm'>Create account</div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
