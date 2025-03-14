@@ -66,7 +66,7 @@ const Hero = () => {
        
         </div>
    
-      <div className="w-full rounded-3xl border bg-yellow-100 opacity-10 h-60 flex-grow mt-2">
+      <div className="w-full rounded-3xl border bg-yellow-100 opacity-10 h-32 flex-grow mt-2">
       </div>
       </div>
     </div>

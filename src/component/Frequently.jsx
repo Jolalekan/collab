@@ -62,6 +62,8 @@ const Frequently = () => {
                     <h3 className="text-sm leading-tight font-semibold">
                      {item.FAQ}
                     </h3>
+                    <div>
+
                     <img
                       src="/assets/chevronblack.png"
                       width={12}
@@ -70,7 +72,8 @@ const Frequently = () => {
                       className={`cursor-pointer hover:opacity-90 transition-transform duration-200 ${
                         openIndex === index ? "rotate-180" : ""
                       }`}
-                    />
+                      />
+                      </div>
                   </div>
 
                   {/* Accordion Content */}
