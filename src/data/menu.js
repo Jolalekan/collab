@@ -3,18 +3,16 @@ export const menuItems = [
         name: "Product",
         path: "/",
         submenu: [
-            { name: "Feature", path: "/feature1" },
-            { name: "Feature", path: "/feature2" },
-            { name: "Feature", path: "/feature3" },
-        ],
+            { name: "Home", path: "/home" },
+            { name: "Product", path: "/home" },
+        ]
     },
     {
         name: "Resources",
         path: "/#contact",
         submenu: [
             { name: "Home", path: "/home" },
-            { name: "Office", path: "/home" },
-            { name: "House", path: "/home" },
+            // { name: "Office", path: "/home" },
         ],
     },
     {
@@ -22,8 +20,8 @@ export const menuItems = [
         path: "/#about",
         submenu: [
             { name: "Yearly", path: "/feature1" },
-            { name: "Monthly", path: "/feature2" },
-            { name: "Weekly", path: "/feature3" },
+            // { name: "Monthly", path: "/feature2" },
+        
         ],
     },
     {
@@ -31,13 +29,12 @@ export const menuItems = [
         path: "/#about",
         submenu: [
             { name: "Home", path: "/home" },
-            { name: "Office", path: "/office" },
-            { name: "Apartment", path: "/aparment" },
+            // { name: "Office", path: "/office" },
         ],
     },
     {
         name: "Contact",
-        path: "/#about",
+        // path: "/#about",
     },
 ];
 

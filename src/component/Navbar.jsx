@@ -184,9 +184,9 @@ const Navbar = () => {
           className="bg-gradient-to-b from-blue-50 to-white fixed top-20 left-0 w-full shadow-lg z-40 overflow-hidden lg:hidden"
           style={{ height: 0, opacity: 0 }}
         >
-          <ul className="flex flex-col items-center gap-5 font-medium text-xl p-6">
+          <ul className="flex flex-col items-center font-medium text-xl p-2">
             {menuItems.map((item) => (
-              <li key={item.name} className="py-2 w-full text-center border-b border-gray-100">
+              <li key={item.name} className=" w-full text-center border-b border-gray-100">
                 <a onClick={() => handleNavigation(item.path)}>{item.name}</a>
                 {item.submenu && ( // Render submenu in mobile view
                   <ul className="mt-2">
