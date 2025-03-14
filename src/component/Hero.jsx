@@ -7,9 +7,9 @@ const Hero = () => {
     <div className="content ">
 
     <div className="max-w-4xl mx-auto flex flex-col justify-center items-center pt-60 gap-20 h-screen">
-      <div className="flex flex-col items-center gap-6">
-        <h1 className="text-center text-3xl lg:text-5xl text-white from-black font-semibold leading-tight ">
-         Collab SOftware Solutions for Enterprenuer Growth
+      <div className="px-4 flex flex-col items-center gap-6">
+        <h1 className="text-center text-2xl lg:text-5xl text-white from-black font-bold leading-tight ">
+         Collab Software Solutions for Enterprenuer Growth
         </h1>
         <p className="text-gray-200 text-center font-medium leading-tight">
         Leading software company providing innovative solutions and services globally.
@@ -63,13 +63,7 @@ const Hero = () => {
         </span>
           Security
           </div>
-        <div className="flex items-center gap-1 text-sm text-white font-semibold leading-tight tracking-tight border-2 rounded-full py-1 px-2">
-        <span className="hidden md:block">
-        <FaEnvelope />
-
-        </span>
-          Contact
-          </div>
+       
         </div>
    
       <div className="w-full rounded-3xl border bg-yellow-100 opacity-10 h-60 flex-grow mt-2">

@@ -29,15 +29,6 @@ function App() {
       <Testimonial/>
       <Frequently/> 
       <Footer/>
-      {/* <BrowserRouter> */}
-      {/* <ScrollToTop/> */}
-        {/* <Routes> */}
-          {/* <Route element={<Layout />}> */}
-            {/* <Route path="/" element={<Container />} /> */}
-        
-          {/* </Route> */}
-        {/* </Routes> */}
-      {/* </BrowserRouter> */}
     </div>
   );
 }
