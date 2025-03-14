@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <div className='bg-blue-950'>
       <Container>
-        <div className='flex flex-col lg:flex-row items-center gap-6 py-20'>
+        <div className='flex flex-col lg:flex-row items-center  py-20'>
           <div className='w-full lg:flex-1 text-center lg:text-left'>
             <h3 className='text-white text-base leading-tight font-medium'>Address</h3>
             <p className='text-white text-base leading-tight'>12, London Street off Micheal <br /> Street Mary Land <br /> United Kingdom</p>
           </div>
-          <div className='w-full lg:flex-1 mt-8 lg:mt-0'>
+          <div className='w-full lg:flex-1 mt-4 lg:mt-0'>
             <div className='flex justify-center gap-10'>
               <div className='text-white flex flex-col'>
                 <h3 className='font-medium text-base leading-tight'>About</h3>

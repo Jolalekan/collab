@@ -56,7 +56,7 @@ const Frequently = () => {
               {frequently.map((item, index) => (
                 <div key={index}>
                   <div
-                    className="shadow-md border flex justify-between py-4 px-4 border-gray-500 rounded-md cursor-pointer hover:bg-gray-50 transition-colors duration-200"
+                    className="shadow-md border items-center flex justify-between py-4 px-4 border-gray-500 rounded-md cursor-pointer hover:bg-gray-50 transition-colors duration-200"
                     onClick={() => toggleAccordion(index)} // Pass `index` to the handler
                   >
                     <h3 className="text-sm leading-tight font-semibold">
